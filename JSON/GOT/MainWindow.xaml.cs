@@ -42,8 +42,10 @@ namespace GOT
 
                     Quote q = JsonConvert.DeserializeObject<Quote>(content);
 
-                    gotQuote.txt = new TextBlock();
+                    TextBlock txt = new TextBlock();
 
+
+                    //txt.Inlines.Add(@"https://got-quotes.herokuapp.com/quotes");
                     txt.Inlines.Add(new Italic(new Run("italic")));
                     txt.Inlines.Add(new Bold(new Run("bold")));
 
@@ -55,11 +57,5 @@ namespace GOT
             }
 
         }
-    }
-
-    public FormatTheText()
-    {
-
-        Title = "Format the text";
     }
 }

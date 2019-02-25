@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
-        <TextBlock x:Name="gotQuote" HorizontalAlignment="Left" Margin="578,48,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="119" Width="101" RenderTransformOrigin="-0.637,0.461"/>
+        <TextBlock x:Name="gotQuote" HorizontalAlignment="Left" Margin="594,49,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="119" Width="101" RenderTransformOrigin="-0.637,0.461"/>
         <Grid.Background>
             <ImageBrush ImageSource="https://media.wired.com/photos/5bdb5fff134e755d734f7eeb/master/pass/Dany-Jon-GOT.jpg"/>
         </Grid.Background>
